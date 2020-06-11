@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+</head>
+<style>
+
+    body {
+        background-color: black;
+    }
+    .clock{
+        border: gold 8px solid;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: gold;
+        /* margin: 200px; */
+        position: relative;
+        top: 140px;
+        border-radius: 20px;
+        height: 150px;
+        width: 600px;
+        left: 300px;
+    }
+    .date {
+        color: aliceblue;
+        position: relative;
+        top: 100px;
+        left: 450px;
+        
+    }
+
+    .date > span {
+        font-size: 50px;
+    }
+    .clock > span{
+        font-size: 140px;
+        font-weight: 30px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+
+</style>
+<body>
+
+    <div class="date"></div>
+    
+    <div class="clock"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
